@@ -19,7 +19,14 @@ Template Name: Home
 get_header('custom');
 ?>
 
-	
+<section>
+	<div class="heading">
+		<div class="container">
+			<h2><?php the_title(); ?></h2>
+		</div>
+		<!-- <div class="heading-filter"></div> -->
+  </div>
+</section>	
 
 <?php
 // get_sidebar();

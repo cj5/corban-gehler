@@ -30,7 +30,14 @@ get_header('custom');
 
 <section class="contact paddings">
   <div class="container">
-    <?php echo do_shortcode('[wpforms id="34" title="false" description="false"]') ?>
+		<div class="form-wrapper">
+		<h3 class="mg-tp-lg">Email Corban</h3>	
+			<?php echo do_shortcode('[wpforms id="34" title="false" description="false"]') ?>
+			<h4 class="mg-tp-lg mg-bt-sm">Mailing Address:</h4>
+			<p class="mg-bt-xl">6516 Monona Drive Num 172 Monona, WI 53716</p>
+			<h3 class="mg-tp-lg">Volunteer Sign-up</h3>
+				<?php echo do_shortcode('[wpforms id="44" title="false" description="false"]') ?>
+		</div>
   </div>
 </section>
 

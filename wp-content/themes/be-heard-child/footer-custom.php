@@ -31,7 +31,7 @@
 						</div>
 					</li>
 				</a>
-				<a class="tunnel ib center" href="">
+				<a class="tunnel ib center" href="https://secure.actblue.com/donate/corbanltgovernor" target="_blank">
 					<li>
 						<div class="mid">
 							<div class="icon">
@@ -65,7 +65,7 @@
 
 	<footer>
 		<div class="container">
-			<div class="column left ib">
+			<div class="column left ib desktop">
 				<div class="column-wrapper">
 					<p>&copy; 2018 | Corban Gehler for Lt. Governor of WI</p>
 				</div>
@@ -80,11 +80,16 @@
 			<div class="column right ib">
 				<div class="column-wrapper">
 					<ul class="social-links">
-						<li><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg></li>
-						<li><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></li>
-						<li><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></li>
-						<li><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></li>
+						<a href=""><li><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg></li></a>
+						<a href=""><li><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></li></a>
+						<a href=""><li><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></li></a>
+						<a href=""><li><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></li></a>
 					</ul>
+				</div>
+			</div>
+			<div class="column ib mobile">
+				<div class="column-wrapper">
+					<p>&copy; 2018 | Corban Gehler for Lt. Governor of WI</p>
 				</div>
 			</div>
 		</div>

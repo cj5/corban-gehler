@@ -16,16 +16,58 @@
 
 //~~~~~~~~~~~~~~~~~~~ 992px
 @media (max-width: 992px) {
-	#mobile-nav {
+  .paddings {
+    padding: 80px 0 !important;
+  }
+  #mobile-nav, #navicon {
 		display: block;
-	}
+  }
+  #mobile-nav {
+    height: 100%;
+  }
 	nav.desktop {
 		display: none;
-	}
+  }
+  .header-wrapper {
+    height: 80px;
+  }
+  .header-title img {
+    max-width: 140px !important;
+    margin-top: 0 !important;
+  }
+  .hero-section {
+    height: 600px;
+    .learn-more {
+      position: absolute;
+      right: 0px;
+      bottom: 10px;
+    }
+  }
+  .tunnel {
+    margin-right: 2.95%;
+    padding: 20px 10px 34px;
+    h5 {
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+  }
+  footer .column {
+    margin-right: 2.95%;
+  }
+  .social-links li {
+    margin-left: 10px;
+  }
+  .social-links .icon {
+    width: 30px;
+    height: 30px;
+  }
+  footer p {
+    font-size: 14px;
+  }
 	
 	// Bootstrap Grid
   .container {
-    overflow: hidden;
+    overflow: visible;
     width: 720px;
     margin-right: auto;
     margin-left: auto;
@@ -35,11 +77,94 @@
   // END Bootstrap Grid
 }
 
+//~~~~~~~~~~~~~~~~~~~ 850px
+@media (max-width: 850px) {
+  .locations .locations-map #wpsl-radius label {
+    margin-left: 0px;
+  }
+  #wpsl-search-wrap {
+    padding: 10px 0 20px;
+  }
+}
+
 //~~~~~~~~~~~~~~~~~~~ 768px
 @media (max-width: 768px) {
+  .hero-section {
+    .right .slogan-wrapper h2 {
+      font-size: 80px;
+      line-height: 80px;
+    }
+    .left img {
+      right: 130px;
+    }
+    .learn-more {
+      // position: absolute;
+      // right: 100px;
+      // bottom: 0px;
+      p {
+        font-size: 18px;
+        .icon {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+  .join {
+    h2 {
+      font-size: 40px;
+    }
+    h3 {
+      font-size: 24px;
+      line-height: 30px;
+    }
+  }
+  .tunnels {
+    text-align: center;
+  }
+  .tunnel {
+    text-align: center;
+    width: auto;
+    height: auto !important;
+    max-width: 350px;
+    margin: 0 auto 40px;
+    padding: 20px 30px 34px;
+    h5 {
+      position: relative;
+      display: block;
+      margin-bottom: 0;
+    }
+  }
+  .locations-directions h3 {
+    font-size: 20px;
+    line-height: 28px;    
+  }
+  footer  {    
+    .column {
+      width: 100%;
+      text-align: center;
+      display: block;
+      margin: 30px 0 0;
+      height: 50px;
+    }
+    .mid {
+      margin-top: 40px;
+    }
+    .social-links {
+      float: none;
+    }
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+      margin-top: 0px;
+      margin-bottom: 20px;
+    }
+  }  
+
 	// Bootstrap Grid
 	.container {
-		overflow: hidden;
+		overflow: visible;
 		width: 540px;
 		margin-right: auto;
 		margin-left: auto;
@@ -49,11 +174,84 @@
 	// END Bootstrap Grid
 }
 
+//~~~~~~~~~~~~~~~~~~~ 640px
+@media (max-width: 640px) {
+  .hero-section .left img {
+    right: 80px;
+  }
+  .hero-section .right .slogan-wrapper h2 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .hero-section .right {
+    left: 58%;
+  }
+}
+
 //~~~~~~~~~~~~~~~~~~~ 576px
 @media (max-width: 576px) {
+  h3 {
+    line-height: 36px;
+  }
+  .paddings {
+    padding: 60px 0;
+  }
+  .padding-top {
+    padding: 60px 0 0;
+  }
+  .mg-tp-xl {
+    margin-top: 50px !important;
+  }
+  .mg-bt-xl {
+    margin-bottom: 50px !important;
+  }
+  .about h3 {
+    margin-top: 50px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .hero-section .left img {
+    right: 50px;
+  }
+  .heading h2 {
+    font-size: 34px;
+    margin: 20px 0 14px;
+  }
+  .ft-sz-lg {
+    font-size: 28px !important;
+    line-height: 34px;
+  }
+  .hero-section .right .slogan-wrapper h2 {    
+    padding: 30px 30px 700px;
+  }
+  .hero-section .right .slogan-wrapper h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  #mobile-nav .column {
+    display: block;
+    bottom: 0;
+    width: 100%;
+    .social-links {
+      float: none;
+      margin-top: 20px;
+      li {
+        margin-left: 0;
+        margin-right: 16px;
+      }
+    }
+  }
+  .offset p {
+    line-height: 26px;
+  }
+  .tunnel {
+    padding: 20px 20px 34px;
+  }
+  
   // Bootstrap Grid
   .container {
-    overflow: hidden;
+    overflow: visible;
     width: auto;
     margin-right: auto;
     margin-left: auto;
@@ -65,11 +263,84 @@
 
 //~~~~~~~~~~~~~~~~~~~ 420px
 @media (max-width: 420px) {
-  
+  .hero-section .left img {
+    right: 50px;
+  }
+  .hero-section .right .slogan-wrapper h2 {
+    padding: 30px 30px 700px;
+  }
+  .hero-section .right {
+    left: 65%;
+  }
+  .hero-section .right .slogan-wrapper h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .hero-section .learn-more {
+    bottom: 0 !important;
+  }
+  .hero-section .learn-more p {
+    font-size: 16px;
+  }
+  #mobile-nav {
+    li {
+      padding: 10px 0;
+    }
+    a {
+      font-size: 24px !important;
+    }
+  }
+  .join {
+    h2 {
+      font-size: 34px;
+      line-height: 40px;
+      margin-bottom: 20px !important;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 26px;      
+    } 
+  } 
 }
 
 //~~~~~~~~~~~~~~~~~~~ 380px
 @media (max-width: 380px) {
   
+}
+
+//~~~~~~~~~~~~~~~~~~~ 560px
+@media (max-height: 560px) {
+  #mobile-nav {
+    .mobile-header img {
+      max-width: 120px;
+      padding: 10px 0 7px;
+    }
+    #close {
+      top: 16px;
+    }
+    nav {
+      margin-top: 8px;
+      display: inline-block;      
+    }
+    .column {
+      width: auto;
+    }
+    li {
+      padding: 6px 0;      
+    }
+    a {
+      font-size: 16px !important;
+    }
+    .column {
+      .social-links {
+        display: inline-block;
+        float: right;
+        li {
+          display: block;
+          margin-right: 0;
+        }
+      }      
+    }    
+  }  
 }
           
