@@ -1,0 +1,75 @@
+// MEDIA QUERIES
+
+//~~~~~~~~~~~~~~~~~~~ 1200px
+@media (max-width: 1200px) {
+  // Bootstrap Grid
+  .container {
+    overflow: hidden;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  // END Bootstrap Grid
+}
+
+//~~~~~~~~~~~~~~~~~~~ 992px
+@media (max-width: 992px) {
+	#mobile-nav {
+		display: block;
+	}
+	nav.desktop {
+		display: none;
+	}
+	
+	// Bootstrap Grid
+  .container {
+    overflow: hidden;
+    width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  // END Bootstrap Grid
+}
+
+//~~~~~~~~~~~~~~~~~~~ 768px
+@media (max-width: 768px) {
+	// Bootstrap Grid
+	.container {
+		overflow: hidden;
+		width: 540px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	// END Bootstrap Grid
+}
+
+//~~~~~~~~~~~~~~~~~~~ 576px
+@media (max-width: 576px) {
+  // Bootstrap Grid
+  .container {
+    overflow: hidden;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  // END Bootstrap Grid  
+}
+
+//~~~~~~~~~~~~~~~~~~~ 420px
+@media (max-width: 420px) {
+  
+}
+
+//~~~~~~~~~~~~~~~~~~~ 380px
+@media (max-width: 380px) {
+  
+}
+          
