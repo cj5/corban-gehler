@@ -19,6 +19,14 @@ let vpH = $(window).height();
 let heroImgHt = $('.hero-section img').height();
 console.log('heroImgHt:', heroImgHt);
 $('.hero-section').height(heroImgHt);
+setTimeout(() => {
+  let heroImgHt = $('.hero-section img').height();
+  $('.hero-section').height(heroImgHt);
+}, 500);
+setTimeout(() => {
+  let heroImgHt = $('.hero-section img').height();
+  $('.hero-section').height(heroImgHt);
+}, 1000);
 
 let maxHeight = 0;
 $('.tunnel').each(function(){
@@ -46,12 +54,23 @@ $('.learn-more').css('right', (vpW - (containerW + 20)) / 2);
 console.log(containerW);
 let heroHt = $('.hero-section').outerHeight();
 console.log('heroHt:', heroHt);
-if (headerHt + heroHt > vpH) {
+if ((headerHt + heroHt) > vpH) {
   $('.learn-more').css('top', vpH - headerHt - 110);
 } else {
   $('.learn-more').css('top', 'initial');
   $('.learn-more').css('bottom', 20);
 }
+setTimeout(() => {
+  let heroHt = $('.hero-section').outerHeight();
+  if ((headerHt + heroHt) > vpH) {
+    $('.learn-more').css('top', vpH - headerHt - 110);
+    console.log('testeroni');
+  } else {
+    $('.learn-more').css('top', 'initial');
+    $('.learn-more').css('bottom', 20);
+  }
+  console.log(headerHt + heroHt);
+}, 1000);
 
 $(window).scroll(function() {
   if ($(this).scrollTop() > 110) {
@@ -109,7 +128,7 @@ const updateContainer = () => {
 
   let containerW = $('.container').width();  
   $('.learn-more').css('right', (vpW - (containerW + 20)) / 2);
-  if (headerHt + heroHt > vpH) {    
+  if ((headerHt + heroHt) > vpH) {    
     $('.learn-more').css('top', vpH - headerHt - (110));
   } else {
     $('.learn-more').css('top', 'initial');

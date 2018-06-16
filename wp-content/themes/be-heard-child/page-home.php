@@ -43,7 +43,7 @@ get_header('custom');
 	<section class="offset paddings center">
 		<div id="learn-more"></div>
 		<div class="container">
-			<h2 class="ft-sz-lg mg-bt-lg">Corban Gehler for Lt. Governor of Wisconsin</h2>
+			<h2 class="ft-sz-lg mg-bt-md">Corban Gehler for Lt. Governor of Wisconsin</h2>
 			<p class="mw">To produce results for the benefit of all Wisconsinites, we must work together. I invite you to join our team, be heard, and vote for me in the primary on Tuesday, August 14, 2018 and in the general election on November 6, 2018.</p>
 		</div>		
 	</section>
